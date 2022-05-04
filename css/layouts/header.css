@@ -1,0 +1,78 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Header)
+|   ---------------------------------------------------------------------------------
+|   
+|   In this folder you create all layouts (one file per layout) that you will use for your pages 
+|   like containers, boxes, sections, etc...
+|
+*/
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 5rem;
+    flex-wrap: wrap;
+   /* position: fixed;
+    top: 0;*/
+    transition: 400ms;
+}
+
+    @media screen and (min-width: 200px) and (max-width:624px) {
+        .header{
+            text-align: center;
+        }
+    }
+
+.header__image{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+
+.header__image img{
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.header__info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.header__info-head{
+    font-family: NunitoBlack;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.header__info-link{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    font-family: NunitoBlack;
+    font-size: 1rem;
+    transition: 400ms;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.header__info-link--active{
+    color: black;
+}
+
+.header__info-link:hover{
+    color: black;
+}
+
+.header__info-body{
+    display: flex;
+    gap: 1rem;
+}
+

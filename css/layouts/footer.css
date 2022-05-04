@@ -1,0 +1,28 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Footer)
+|   ---------------------------------------------------------------------------------
+|   
+|   In this folder you create all layouts (one file per layout) that you will use for your pages 
+|   like containers, boxes, sections, etc...
+|
+*/
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.footer p{
+    font-family: NunitoLight;
+}
