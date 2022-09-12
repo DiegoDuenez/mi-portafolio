@@ -18,12 +18,22 @@
     margin: 0 auto;
     padding: 2rem;
     margin-top: 4rem;
+   
 }
     @media screen and (min-width: 200px) and (max-width:730px) {
         .section{
             width: 90%;
         }
     }
+
+.section--dark{
+    background-color: #2b2b2b;
+    color: white;
+} 
+
+.section--dark .section__list .section__list-item a{
+    color: white;
+}
 
 .section:first-of-type{
     margin-top: 0rem;
@@ -101,6 +111,16 @@ h4{
     color: white;
 }
 
+.section--dark .section__link-button{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.section--dark .section__link-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
 
 .section__link{
     font-family: NunitoMedium;
@@ -110,6 +130,17 @@ h4{
 }
 
 .section__link:hover{
+    text-decoration: underline;
+}
+
+.section--dark .section__link{
+    font-family: NunitoMedium;
+    color: white;
+    transition: 400ms;
+    text-decoration: none;
+}
+
+.section--dark .section__link:hover{
     text-decoration: underline;
 }
 

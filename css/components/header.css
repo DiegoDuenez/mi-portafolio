@@ -53,6 +53,10 @@
     letter-spacing: 0.1rem;
 }
 
+.header__info-head--dark{
+    color: white;
+}
+
 .header__info-link{
     text-decoration: none;
     color: rgb(200, 200, 200);
@@ -69,6 +73,24 @@
 
 .header__info-link:hover{
     color: black;
+}
+
+.header__info-link--dark{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    font-family: NunitoBlack;
+    font-size: 1rem;
+    transition: 400ms;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.header__info-link--dark-active{
+    color: rgb(255, 255, 255);
+}
+
+.header__info-link--dark:hover{
+    color: rgb(255, 255, 255);
 }
 
 .header__info-body{

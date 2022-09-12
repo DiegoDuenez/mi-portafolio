@@ -31,3 +31,7 @@
 .footer p{
     font-family: NunitoLight;
 }
+
+.footer--dark{
+    color: white;
+}
